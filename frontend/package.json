@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fontsource/ibm-plex-mono": "^4.5.13",
+    "@fontsource/jost": "^4.5.11",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "escape-html": "^1.0.3",
+    "firebase": "^9.9.3",
+    "firebase-admin": "^11.0.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.5.1",
+    "gray-matter": "^4.0.3",
+    "is-hotkey": "^0.2.0",
+    "lodash.debounce": "^4.0.8",
+    "luxon": "^3.0.3",
+    "nanoid": "^4.0.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-icons": "^4.4.0",
+    "react-intersection-observer": "^9.4.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "slate": "^0.82.1",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.83.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
